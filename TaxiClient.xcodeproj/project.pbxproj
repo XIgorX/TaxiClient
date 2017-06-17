@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7862A5121EF5CC7C009448B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5111EF5CC7C009448B7 /* AppDelegate.swift */; };
+		7862A5141EF5CC7C009448B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5131EF5CC7C009448B7 /* ViewController.swift */; };
+		7862A5171EF5CC7C009448B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7862A5151EF5CC7C009448B7 /* Main.storyboard */; };
+		7862A5191EF5CC7C009448B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7862A5181EF5CC7C009448B7 /* Assets.xcassets */; };
+		7862A51C1EF5CC7C009448B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7862A51A1EF5CC7C009448B7 /* LaunchScreen.storyboard */; };
+		7862A5271EF5CC7C009448B7 /* TaxiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5261EF5CC7C009448B7 /* TaxiClientTests.swift */; };
+		7862A5321EF5CC7C009448B7 /* TaxiClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5311EF5CC7C009448B7 /* TaxiClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7862A5231EF5CC7C009448B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7862A5061EF5CC7C009448B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7862A50D1EF5CC7C009448B7;
+			remoteInfo = TaxiClient;
+		};
+		7862A52E1EF5CC7C009448B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7862A5061EF5CC7C009448B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7862A50D1EF5CC7C009448B7;
+			remoteInfo = TaxiClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7862A50E1EF5CC7C009448B7 /* TaxiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862A5111EF5CC7C009448B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7862A5131EF5CC7C009448B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7862A5161EF5CC7C009448B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7862A5181EF5CC7C009448B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7862A51B1EF5CC7C009448B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7862A51D1EF5CC7C009448B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7862A5221EF5CC7C009448B7 /* TaxiClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862A5261EF5CC7C009448B7 /* TaxiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiClientTests.swift; sourceTree = "<group>"; };
+		7862A5281EF5CC7C009448B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7862A52D1EF5CC7C009448B7 /* TaxiClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862A5311EF5CC7C009448B7 /* TaxiClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiClientUITests.swift; sourceTree = "<group>"; };
+		7862A5331EF5CC7C009448B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7862A50B1EF5CC7C009448B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862A51F1EF5CC7C009448B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862A52A1EF5CC7C009448B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7862A5051EF5CC7C009448B7 = {
+			isa = PBXGroup;
+			children = (
+				7862A5101EF5CC7C009448B7 /* TaxiClient */,
+				7862A5251EF5CC7C009448B7 /* TaxiClientTests */,
+				7862A5301EF5CC7C009448B7 /* TaxiClientUITests */,
+				7862A50F1EF5CC7C009448B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7862A50F1EF5CC7C009448B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7862A50E1EF5CC7C009448B7 /* TaxiClient.app */,
+				7862A5221EF5CC7C009448B7 /* TaxiClientTests.xctest */,
+				7862A52D1EF5CC7C009448B7 /* TaxiClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7862A5101EF5CC7C009448B7 /* TaxiClient */ = {
+			isa = PBXGroup;
+			children = (
+				7862A5111EF5CC7C009448B7 /* AppDelegate.swift */,
+				7862A5131EF5CC7C009448B7 /* ViewController.swift */,
+				7862A5151EF5CC7C009448B7 /* Main.storyboard */,
+				7862A5181EF5CC7C009448B7 /* Assets.xcassets */,
+				7862A51A1EF5CC7C009448B7 /* LaunchScreen.storyboard */,
+				7862A51D1EF5CC7C009448B7 /* Info.plist */,
+			);
+			path = TaxiClient;
+			sourceTree = "<group>";
+		};
+		7862A5251EF5CC7C009448B7 /* TaxiClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				7862A5261EF5CC7C009448B7 /* TaxiClientTests.swift */,
+				7862A5281EF5CC7C009448B7 /* Info.plist */,
+			);
+			path = TaxiClientTests;
+			sourceTree = "<group>";
+		};
+		7862A5301EF5CC7C009448B7 /* TaxiClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7862A5311EF5CC7C009448B7 /* TaxiClientUITests.swift */,
+				7862A5331EF5CC7C009448B7 /* Info.plist */,
+			);
+			path = TaxiClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7862A50D1EF5CC7C009448B7 /* TaxiClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7862A5361EF5CC7C009448B7 /* Build configuration list for PBXNativeTarget "TaxiClient" */;
+			buildPhases = (
+				7862A50A1EF5CC7C009448B7 /* Sources */,
+				7862A50B1EF5CC7C009448B7 /* Frameworks */,
+				7862A50C1EF5CC7C009448B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiClient;
+			productName = TaxiClient;
+			productReference = 7862A50E1EF5CC7C009448B7 /* TaxiClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7862A5211EF5CC7C009448B7 /* TaxiClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7862A5391EF5CC7C009448B7 /* Build configuration list for PBXNativeTarget "TaxiClientTests" */;
+			buildPhases = (
+				7862A51E1EF5CC7C009448B7 /* Sources */,
+				7862A51F1EF5CC7C009448B7 /* Frameworks */,
+				7862A5201EF5CC7C009448B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7862A5241EF5CC7C009448B7 /* PBXTargetDependency */,
+			);
+			name = TaxiClientTests;
+			productName = TaxiClientTests;
+			productReference = 7862A5221EF5CC7C009448B7 /* TaxiClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7862A52C1EF5CC7C009448B7 /* TaxiClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7862A53C1EF5CC7C009448B7 /* Build configuration list for PBXNativeTarget "TaxiClientUITests" */;
+			buildPhases = (
+				7862A5291EF5CC7C009448B7 /* Sources */,
+				7862A52A1EF5CC7C009448B7 /* Frameworks */,
+				7862A52B1EF5CC7C009448B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7862A52F1EF5CC7C009448B7 /* PBXTargetDependency */,
+			);
+			name = TaxiClientUITests;
+			productName = TaxiClientUITests;
+			productReference = 7862A52D1EF5CC7C009448B7 /* TaxiClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7862A5061EF5CC7C009448B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Igor;
+				TargetAttributes = {
+					7862A50D1EF5CC7C009448B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U5PJN58KSH;
+						ProvisioningStyle = Automatic;
+					};
+					7862A5211EF5CC7C009448B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U5PJN58KSH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7862A50D1EF5CC7C009448B7;
+					};
+					7862A52C1EF5CC7C009448B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U5PJN58KSH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7862A50D1EF5CC7C009448B7;
+					};
+				};
+			};
+			buildConfigurationList = 7862A5091EF5CC7C009448B7 /* Build configuration list for PBXProject "TaxiClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7862A5051EF5CC7C009448B7;
+			productRefGroup = 7862A50F1EF5CC7C009448B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7862A50D1EF5CC7C009448B7 /* TaxiClient */,
+				7862A5211EF5CC7C009448B7 /* TaxiClientTests */,
+				7862A52C1EF5CC7C009448B7 /* TaxiClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7862A50C1EF5CC7C009448B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7862A51C1EF5CC7C009448B7 /* LaunchScreen.storyboard in Resources */,
+				7862A5191EF5CC7C009448B7 /* Assets.xcassets in Resources */,
+				7862A5171EF5CC7C009448B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862A5201EF5CC7C009448B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862A52B1EF5CC7C009448B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7862A50A1EF5CC7C009448B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7862A5141EF5CC7C009448B7 /* ViewController.swift in Sources */,
+				7862A5121EF5CC7C009448B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862A51E1EF5CC7C009448B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7862A5271EF5CC7C009448B7 /* TaxiClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862A5291EF5CC7C009448B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7862A5321EF5CC7C009448B7 /* TaxiClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7862A5241EF5CC7C009448B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7862A50D1EF5CC7C009448B7 /* TaxiClient */;
+			targetProxy = 7862A5231EF5CC7C009448B7 /* PBXContainerItemProxy */;
+		};
+		7862A52F1EF5CC7C009448B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7862A50D1EF5CC7C009448B7 /* TaxiClient */;
+			targetProxy = 7862A52E1EF5CC7C009448B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7862A5151EF5CC7C009448B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7862A5161EF5CC7C009448B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7862A51A1EF5CC7C009448B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7862A51B1EF5CC7C009448B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7862A5341EF5CC7C009448B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7862A5351EF5CC7C009448B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7862A5371EF5CC7C009448B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5PJN58KSH;
+				INFOPLIST_FILE = TaxiClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7862A5381EF5CC7C009448B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5PJN58KSH;
+				INFOPLIST_FILE = TaxiClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7862A53A1EF5CC7C009448B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U5PJN58KSH;
+				INFOPLIST_FILE = TaxiClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiClient.app/TaxiClient";
+			};
+			name = Debug;
+		};
+		7862A53B1EF5CC7C009448B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U5PJN58KSH;
+				INFOPLIST_FILE = TaxiClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiClient.app/TaxiClient";
+			};
+			name = Release;
+		};
+		7862A53D1EF5CC7C009448B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U5PJN58KSH;
+				INFOPLIST_FILE = TaxiClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxiClient;
+			};
+			name = Debug;
+		};
+		7862A53E1EF5CC7C009448B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U5PJN58KSH;
+				INFOPLIST_FILE = TaxiClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxiClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7862A5091EF5CC7C009448B7 /* Build configuration list for PBXProject "TaxiClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7862A5341EF5CC7C009448B7 /* Debug */,
+				7862A5351EF5CC7C009448B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7862A5361EF5CC7C009448B7 /* Build configuration list for PBXNativeTarget "TaxiClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7862A5371EF5CC7C009448B7 /* Debug */,
+				7862A5381EF5CC7C009448B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7862A5391EF5CC7C009448B7 /* Build configuration list for PBXNativeTarget "TaxiClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7862A53A1EF5CC7C009448B7 /* Debug */,
+				7862A53B1EF5CC7C009448B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7862A53C1EF5CC7C009448B7 /* Build configuration list for PBXNativeTarget "TaxiClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7862A53D1EF5CC7C009448B7 /* Debug */,
+				7862A53E1EF5CC7C009448B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7862A5061EF5CC7C009448B7 /* Project object */;
+}
