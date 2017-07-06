@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781ABE761F0449A100BE5331 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ABE751F0449A100BE5331 /* SettingsViewController.swift */; };
+		781ABE7A1F04503D00BE5331 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 781ABE791F04503D00BE5331 /* close.png */; };
 		7862A5121EF5CC7C009448B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5111EF5CC7C009448B7 /* AppDelegate.swift */; };
 		7862A5141EF5CC7C009448B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5131EF5CC7C009448B7 /* ViewController.swift */; };
 		7862A5171EF5CC7C009448B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7862A5151EF5CC7C009448B7 /* Main.storyboard */; };
@@ -14,6 +16,17 @@
 		7862A51C1EF5CC7C009448B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7862A51A1EF5CC7C009448B7 /* LaunchScreen.storyboard */; };
 		7862A5271EF5CC7C009448B7 /* TaxiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5261EF5CC7C009448B7 /* TaxiClientTests.swift */; };
 		7862A5321EF5CC7C009448B7 /* TaxiClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5311EF5CC7C009448B7 /* TaxiClientUITests.swift */; };
+		7862A5411EF7530D009448B7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862A5401EF7530D009448B7 /* MapKit.framework */; };
+		78680DB81F0BE9CB00599460 /* empty_сheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 78680DB61F0BE9CB00599460 /* empty_сheckbox.png */; };
+		78680DBA1F0C2E8700599460 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78680DB91F0C2E8700599460 /* AuthorizationViewController.swift */; };
+		78680DBC1F0D262B00599460 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 78680DBB1F0D262B00599460 /* checkbox.png */; };
+		78680DBE1F0E549800599460 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78680DBD1F0E549800599460 /* ConfirmationViewController.swift */; };
+		78680DC01F0E989F00599460 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 78680DBF1F0E989F00599460 /* cross.png */; };
+		788A559A1F0AF4780015C6D2 /* taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 788A55991F0AF4780015C6D2 /* taxi.png */; };
+		78986F7A1F0926220070F4AB /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 78986F791F0926220070F4AB /* delete.png */; };
+		78986F7C1F0928C30070F4AB /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 78986F7B1F0928C30070F4AB /* avatar.png */; };
+		78BF8EEA1F042A7000ACB099 /* cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BF8EE81F042A7000ACB099 /* cursor.png */; };
+		78BF8EEB1F042A7000ACB099 /* menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78BF8EE91F042A7000ACB099 /* menu.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		781ABE751F0449A100BE5331 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		781ABE791F04503D00BE5331 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		7862A50E1EF5CC7C009448B7 /* TaxiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7862A5111EF5CC7C009448B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7862A5131EF5CC7C009448B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,18 @@
 		7862A52D1EF5CC7C009448B7 /* TaxiClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7862A5311EF5CC7C009448B7 /* TaxiClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiClientUITests.swift; sourceTree = "<group>"; };
 		7862A5331EF5CC7C009448B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7862A5401EF7530D009448B7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7862A5461EF75380009448B7 /* TaxiClient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxiClient.entitlements; sourceTree = "<group>"; };
+		78680DB61F0BE9CB00599460 /* empty_сheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty_сheckbox.png"; sourceTree = "<group>"; };
+		78680DB91F0C2E8700599460 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		78680DBB1F0D262B00599460 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		78680DBD1F0E549800599460 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		78680DBF1F0E989F00599460 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		788A55991F0AF4780015C6D2 /* taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi.png; sourceTree = "<group>"; };
+		78986F791F0926220070F4AB /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		78986F7B1F0928C30070F4AB /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		78BF8EE81F042A7000ACB099 /* cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor.png; sourceTree = "<group>"; };
+		78BF8EE91F042A7000ACB099 /* menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menu.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7862A5411EF7530D009448B7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +105,12 @@
 		7862A5051EF5CC7C009448B7 = {
 			isa = PBXGroup;
 			children = (
+				78BF8EE71F042A7000ACB099 /* Pictures */,
 				7862A5101EF5CC7C009448B7 /* TaxiClient */,
 				7862A5251EF5CC7C009448B7 /* TaxiClientTests */,
 				7862A5301EF5CC7C009448B7 /* TaxiClientUITests */,
 				7862A50F1EF5CC7C009448B7 /* Products */,
+				7862A53F1EF7530D009448B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +127,12 @@
 		7862A5101EF5CC7C009448B7 /* TaxiClient */ = {
 			isa = PBXGroup;
 			children = (
+				7862A5461EF75380009448B7 /* TaxiClient.entitlements */,
 				7862A5111EF5CC7C009448B7 /* AppDelegate.swift */,
 				7862A5131EF5CC7C009448B7 /* ViewController.swift */,
+				78680DBD1F0E549800599460 /* ConfirmationViewController.swift */,
+				78680DB91F0C2E8700599460 /* AuthorizationViewController.swift */,
+				781ABE751F0449A100BE5331 /* SettingsViewController.swift */,
 				7862A5151EF5CC7C009448B7 /* Main.storyboard */,
 				7862A5181EF5CC7C009448B7 /* Assets.xcassets */,
 				7862A51A1EF5CC7C009448B7 /* LaunchScreen.storyboard */,
@@ -123,6 +157,30 @@
 				7862A5331EF5CC7C009448B7 /* Info.plist */,
 			);
 			path = TaxiClientUITests;
+			sourceTree = "<group>";
+		};
+		7862A53F1EF7530D009448B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7862A5401EF7530D009448B7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78BF8EE71F042A7000ACB099 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				78680DBF1F0E989F00599460 /* cross.png */,
+				78680DBB1F0D262B00599460 /* checkbox.png */,
+				78680DB61F0BE9CB00599460 /* empty_сheckbox.png */,
+				788A55991F0AF4780015C6D2 /* taxi.png */,
+				78986F7B1F0928C30070F4AB /* avatar.png */,
+				78986F791F0926220070F4AB /* delete.png */,
+				781ABE791F04503D00BE5331 /* close.png */,
+				78BF8EE81F042A7000ACB099 /* cursor.png */,
+				78BF8EE91F042A7000ACB099 /* menu.jpg */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +253,17 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = U5PJN58KSH;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					7862A5211EF5CC7C009448B7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -235,9 +304,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78680DB81F0BE9CB00599460 /* empty_сheckbox.png in Resources */,
+				781ABE7A1F04503D00BE5331 /* close.png in Resources */,
 				7862A51C1EF5CC7C009448B7 /* LaunchScreen.storyboard in Resources */,
+				788A559A1F0AF4780015C6D2 /* taxi.png in Resources */,
+				78680DBC1F0D262B00599460 /* checkbox.png in Resources */,
+				78BF8EEB1F042A7000ACB099 /* menu.jpg in Resources */,
+				78680DC01F0E989F00599460 /* cross.png in Resources */,
 				7862A5191EF5CC7C009448B7 /* Assets.xcassets in Resources */,
+				78986F7C1F0928C30070F4AB /* avatar.png in Resources */,
+				78986F7A1F0926220070F4AB /* delete.png in Resources */,
 				7862A5171EF5CC7C009448B7 /* Main.storyboard in Resources */,
+				78BF8EEA1F042A7000ACB099 /* cursor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78680DBA1F0C2E8700599460 /* AuthorizationViewController.swift in Sources */,
 				7862A5141EF5CC7C009448B7 /* ViewController.swift in Sources */,
 				7862A5121EF5CC7C009448B7 /* AppDelegate.swift in Sources */,
+				781ABE761F0449A100BE5331 /* SettingsViewController.swift in Sources */,
+				78680DBE1F0E549800599460 /* ConfirmationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -417,6 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U5PJN58KSH;
 				INFOPLIST_FILE = TaxiClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U5PJN58KSH;
 				INFOPLIST_FILE = TaxiClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +597,7 @@
 				7862A5381EF5CC7C009448B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7862A5391EF5CC7C009448B7 /* Build configuration list for PBXNativeTarget "TaxiClientTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +606,7 @@
 				7862A53B1EF5CC7C009448B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7862A53C1EF5CC7C009448B7 /* Build configuration list for PBXNativeTarget "TaxiClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +615,7 @@
 				7862A53E1EF5CC7C009448B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
