@@ -22,9 +22,14 @@
 		78680DBC1F0D262B00599460 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 78680DBB1F0D262B00599460 /* checkbox.png */; };
 		78680DBE1F0E549800599460 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78680DBD1F0E549800599460 /* ConfirmationViewController.swift */; };
 		78680DC01F0E989F00599460 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 78680DBF1F0E989F00599460 /* cross.png */; };
+		78680DC21F0EC45300599460 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78680DC11F0EC45300599460 /* back.jpg */; };
+		78680DC41F0EE7B800599460 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78680DC31F0EE7B800599460 /* TipsViewController.swift */; };
+		78680DC61F0EFF1100599460 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78680DC51F0EFF1100599460 /* SearchViewController.swift */; };
 		788A559A1F0AF4780015C6D2 /* taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 788A55991F0AF4780015C6D2 /* taxi.png */; };
 		78986F7A1F0926220070F4AB /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 78986F791F0926220070F4AB /* delete.png */; };
 		78986F7C1F0928C30070F4AB /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 78986F7B1F0928C30070F4AB /* avatar.png */; };
+		789C061E1F13E1560023813E /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C061D1F13E1560023813E /* MailViewController.swift */; };
+		789C06201F1408A60023813E /* AccоuntsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C061F1F1408A60023813E /* AccоuntsViewController.swift */; };
 		78BF8EEA1F042A7000ACB099 /* cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BF8EE81F042A7000ACB099 /* cursor.png */; };
 		78BF8EEB1F042A7000ACB099 /* menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78BF8EE91F042A7000ACB099 /* menu.jpg */; };
 /* End PBXBuildFile section */
@@ -69,9 +74,14 @@
 		78680DBB1F0D262B00599460 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 		78680DBD1F0E549800599460 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 		78680DBF1F0E989F00599460 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		78680DC11F0EC45300599460 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		78680DC31F0EE7B800599460 /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		78680DC51F0EFF1100599460 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		788A55991F0AF4780015C6D2 /* taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi.png; sourceTree = "<group>"; };
 		78986F791F0926220070F4AB /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 		78986F7B1F0928C30070F4AB /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		789C061D1F13E1560023813E /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		789C061F1F1408A60023813E /* AccоuntsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AccоuntsViewController.swift"; sourceTree = "<group>"; };
 		78BF8EE81F042A7000ACB099 /* cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor.png; sourceTree = "<group>"; };
 		78BF8EE91F042A7000ACB099 /* menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menu.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +140,11 @@
 				7862A5461EF75380009448B7 /* TaxiClient.entitlements */,
 				7862A5111EF5CC7C009448B7 /* AppDelegate.swift */,
 				7862A5131EF5CC7C009448B7 /* ViewController.swift */,
+				78680DC31F0EE7B800599460 /* TipsViewController.swift */,
+				789C061F1F1408A60023813E /* AccоuntsViewController.swift */,
+				789C061D1F13E1560023813E /* MailViewController.swift */,
 				78680DBD1F0E549800599460 /* ConfirmationViewController.swift */,
+				78680DC51F0EFF1100599460 /* SearchViewController.swift */,
 				78680DB91F0C2E8700599460 /* AuthorizationViewController.swift */,
 				781ABE751F0449A100BE5331 /* SettingsViewController.swift */,
 				7862A5151EF5CC7C009448B7 /* Main.storyboard */,
@@ -170,6 +184,7 @@
 		78BF8EE71F042A7000ACB099 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				78680DC11F0EC45300599460 /* back.jpg */,
 				78680DBF1F0E989F00599460 /* cross.png */,
 				78680DBB1F0D262B00599460 /* checkbox.png */,
 				78680DB61F0BE9CB00599460 /* empty_сheckbox.png */,
@@ -308,6 +323,7 @@
 				781ABE7A1F04503D00BE5331 /* close.png in Resources */,
 				7862A51C1EF5CC7C009448B7 /* LaunchScreen.storyboard in Resources */,
 				788A559A1F0AF4780015C6D2 /* taxi.png in Resources */,
+				78680DC21F0EC45300599460 /* back.jpg in Resources */,
 				78680DBC1F0D262B00599460 /* checkbox.png in Resources */,
 				78BF8EEB1F042A7000ACB099 /* menu.jpg in Resources */,
 				78680DC01F0E989F00599460 /* cross.png in Resources */,
@@ -341,8 +357,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				78680DBA1F0C2E8700599460 /* AuthorizationViewController.swift in Sources */,
+				78680DC61F0EFF1100599460 /* SearchViewController.swift in Sources */,
 				7862A5141EF5CC7C009448B7 /* ViewController.swift in Sources */,
+				78680DC41F0EE7B800599460 /* TipsViewController.swift in Sources */,
 				7862A5121EF5CC7C009448B7 /* AppDelegate.swift in Sources */,
+				789C06201F1408A60023813E /* AccоuntsViewController.swift in Sources */,
+				789C061E1F13E1560023813E /* MailViewController.swift in Sources */,
 				781ABE761F0449A100BE5331 /* SettingsViewController.swift in Sources */,
 				78680DBE1F0E549800599460 /* ConfirmationViewController.swift in Sources */,
 			);
@@ -498,7 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U5PJN58KSH;
 				INFOPLIST_FILE = TaxiClient/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,7 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U5PJN58KSH;
 				INFOPLIST_FILE = TaxiClient/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Igor.TaxiClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";

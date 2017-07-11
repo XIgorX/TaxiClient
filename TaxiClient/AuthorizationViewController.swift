@@ -10,8 +10,12 @@ import UIKit
 
 class AuthorizationViewController: UIViewController {
 
+    @IBOutlet weak var txtPhoneNumber: UITextField!
+    
     @IBOutlet weak var btnCheckBoxAccept: UIButton!
     @IBOutlet weak var btnNext: UIButton!
+    
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +31,12 @@ class AuthorizationViewController: UIViewController {
         if (btnNext.isEnabled) { btnNext.backgroundColor = UIColor(red: 1.00, green: 200/255, blue: 0, alpha: 1.00)}
         else  { btnNext.backgroundColor = UIColor.lightGray }
     }
+    
+    @IBAction func btnNext_Clicked(_ sender: Any)
+    {
+        defaults.set(txtPhoneNumber.text, forKey: "userUnconfirmedPhone")
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
