@@ -10,7 +10,7 @@
 		781ABE761F0449A100BE5331 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781ABE751F0449A100BE5331 /* SettingsViewController.swift */; };
 		781ABE7A1F04503D00BE5331 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 781ABE791F04503D00BE5331 /* close.png */; };
 		7862A5121EF5CC7C009448B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5111EF5CC7C009448B7 /* AppDelegate.swift */; };
-		7862A5141EF5CC7C009448B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5131EF5CC7C009448B7 /* ViewController.swift */; };
+		7862A5141EF5CC7C009448B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A5131EF5CC7C009448B7 /* MainViewController.swift */; };
 		7862A5171EF5CC7C009448B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7862A5151EF5CC7C009448B7 /* Main.storyboard */; };
 		7862A5191EF5CC7C009448B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7862A5181EF5CC7C009448B7 /* Assets.xcassets */; };
 		7862A51C1EF5CC7C009448B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7862A51A1EF5CC7C009448B7 /* LaunchScreen.storyboard */; };
@@ -56,7 +56,7 @@
 		781ABE791F04503D00BE5331 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		7862A50E1EF5CC7C009448B7 /* TaxiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7862A5111EF5CC7C009448B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7862A5131EF5CC7C009448B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7862A5131EF5CC7C009448B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7862A5161EF5CC7C009448B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7862A5181EF5CC7C009448B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7862A51B1EF5CC7C009448B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 			children = (
 				7862A5461EF75380009448B7 /* TaxiClient.entitlements */,
 				7862A5111EF5CC7C009448B7 /* AppDelegate.swift */,
-				7862A5131EF5CC7C009448B7 /* ViewController.swift */,
+				7862A5131EF5CC7C009448B7 /* MainViewController.swift */,
 				78680DC31F0EE7B800599460 /* TipsViewController.swift */,
 				789C061F1F1408A60023813E /* AccоuntsViewController.swift */,
 				789C061D1F13E1560023813E /* MailViewController.swift */,
@@ -358,7 +358,7 @@
 			files = (
 				78680DBA1F0C2E8700599460 /* AuthorizationViewController.swift in Sources */,
 				78680DC61F0EFF1100599460 /* SearchViewController.swift in Sources */,
-				7862A5141EF5CC7C009448B7 /* ViewController.swift in Sources */,
+				7862A5141EF5CC7C009448B7 /* MainViewController.swift in Sources */,
 				78680DC41F0EE7B800599460 /* TipsViewController.swift in Sources */,
 				7862A5121EF5CC7C009448B7 /* AppDelegate.swift in Sources */,
 				789C06201F1408A60023813E /* AccоuntsViewController.swift in Sources */,
