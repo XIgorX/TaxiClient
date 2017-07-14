@@ -274,7 +274,7 @@ class SearchViewController: UIViewController, MKMapViewDelegate, CLLocationManag
                     return
                 }
             
-        let span:MKCoordinateSpan = MKCoordinateSpanMake(180 , 180);
+        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.1 , 0.1);
         let myLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
             
         let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
@@ -282,7 +282,7 @@ class SearchViewController: UIViewController, MKMapViewDelegate, CLLocationManag
             
         self.pins[self.choosedTaxiIndex].coordinate = CLLocationCoordinate2D(latitude: self.pins[self.choosedTaxiIndex].coordinate.latitude + ((location.coordinate.latitude) - self.pins[self.choosedTaxiIndex].coordinate.latitude) / 10, longitude: self.pins[self.choosedTaxiIndex].coordinate.longitude + ((location.coordinate.longitude) - self.pins[self.choosedTaxiIndex].coordinate.longitude) / 10);
             
-            if  abs(self.pins[self.choosedTaxiIndex].coordinate.latitude - (location.coordinate).latitude) < 1
+            if  abs(self.pins[self.choosedTaxiIndex].coordinate.latitude - (location.coordinate).latitude) < self.eps
             {
                 
                 let alert = UIAlertController(title: "Приехали!", message: "Вы прибыли в место назначения", preferredStyle: UIAlertControllerStyle.alert)
