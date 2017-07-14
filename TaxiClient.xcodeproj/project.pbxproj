@@ -32,6 +32,7 @@
 		789C06201F1408A60023813E /* AccоuntsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C061F1F1408A60023813E /* AccоuntsViewController.swift */; };
 		78BF8EEA1F042A7000ACB099 /* cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BF8EE81F042A7000ACB099 /* cursor.png */; };
 		78BF8EEB1F042A7000ACB099 /* menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78BF8EE91F042A7000ACB099 /* menu.jpg */; };
+		78FE4D971F173F920099D1A4 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FE4D961F173F920099D1A4 /* pin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		789C061F1F1408A60023813E /* AccоuntsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AccоuntsViewController.swift"; sourceTree = "<group>"; };
 		78BF8EE81F042A7000ACB099 /* cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor.png; sourceTree = "<group>"; };
 		78BF8EE91F042A7000ACB099 /* menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menu.jpg; sourceTree = "<group>"; };
+		78FE4D961F173F920099D1A4 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +148,8 @@
 				78680DBD1F0E549800599460 /* ConfirmationViewController.swift */,
 				78680DC51F0EFF1100599460 /* SearchViewController.swift */,
 				78680DB91F0C2E8700599460 /* AuthorizationViewController.swift */,
-				781ABE751F0449A100BE5331 /* SettingsViewController.swift */,
 				7862A5151EF5CC7C009448B7 /* Main.storyboard */,
+				781ABE751F0449A100BE5331 /* SettingsViewController.swift */,
 				7862A5181EF5CC7C009448B7 /* Assets.xcassets */,
 				7862A51A1EF5CC7C009448B7 /* LaunchScreen.storyboard */,
 				7862A51D1EF5CC7C009448B7 /* Info.plist */,
@@ -184,6 +186,7 @@
 		78BF8EE71F042A7000ACB099 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				78FE4D961F173F920099D1A4 /* pin.png */,
 				78680DC11F0EC45300599460 /* back.jpg */,
 				78680DBF1F0E989F00599460 /* cross.png */,
 				78680DBB1F0D262B00599460 /* checkbox.png */,
@@ -322,6 +325,7 @@
 				78680DB81F0BE9CB00599460 /* empty_сheckbox.png in Resources */,
 				781ABE7A1F04503D00BE5331 /* close.png in Resources */,
 				7862A51C1EF5CC7C009448B7 /* LaunchScreen.storyboard in Resources */,
+				78FE4D971F173F920099D1A4 /* pin.png in Resources */,
 				788A559A1F0AF4780015C6D2 /* taxi.png in Resources */,
 				78680DC21F0EC45300599460 /* back.jpg in Resources */,
 				78680DBC1F0D262B00599460 /* checkbox.png in Resources */,

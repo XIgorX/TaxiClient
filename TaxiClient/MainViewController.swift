@@ -12,6 +12,8 @@ import CoreLocation
 
 class MainViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate{
     
+    let defaults = UserDefaults.standard
+    
     @IBOutlet weak var map: MKMapView!
     var locationManager: CLLocationManager!
     let newPin = MKPointAnnotation()
@@ -164,6 +166,9 @@ class MainViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         self.map.showsUserLocation = false;
         //self.map.tintColor = UIColor.green
         //self.map .setUserTrackingMode(.follow, animated: true)
+        
+        print(location.coordinate.latitude)
+        print(location.coordinate.longitude)
         
         newPin.coordinate = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
         map.addAnnotation(newPin)
@@ -398,6 +403,8 @@ class MainViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         }, completion: nil)
         enterAddressPanelIsShowing = false;
         //}
+        
+        lblStartAddress.text = addressSearchBar.text
         addressSearchBar.resignFirstResponder()
     }
     
@@ -415,7 +422,7 @@ class MainViewController: UIViewController, MKMapViewDelegate, CLLocationManager
     @IBAction func btnCloseFinishAddress_Clicked(_ sender: Any)
     {
         UIView.animate(withDuration: 0.5, delay: 0.3, options: [], animations: {
-            self.finishAddressView.frame.origin.y += self.enterAddressView.frame.size.height
+            self.finishAddressView.frame.origin.y += self.finishAddressView.frame.size.height
         }, completion: nil)
         
         lblFinishAddress.text = addressSearchBar2.text
@@ -454,6 +461,15 @@ class MainViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         if let keyboardRectValue = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
             keyboardHeight = Int(keyboardRectValue.height)
         }
+    }
+    
+    @IBAction func btnOrder_Clicked(_ sender: Any)
+    {
+        //запрос к API сервера
+        
+        //сохраняем данные маршрута 
+        defaults.set(lblStartAddress.text, forKey: "currentStartAddress")
+        defaults.set(lblFinishAddress.text, forKey: "currentFinishAddress")
     }
     
     override func didReceiveMemoryWarning() {
@@ -523,7 +539,7 @@ extension MainViewController: UITableViewDelegate {
             self.addressSearchBar.text = searchResult.title
             self.addressSearchBar2.text = searchResult.title
             
-            self.map.setCenter(coordinate!, animated: false)
+            //self.map.setCenter(coordinate!, animated: false)
             
             //self.newPin.coordinate = CLLocationCoordinate2D(latitude: (coordinate?.latitude)!, longitude: (coordinate?.longitude)!)
             //self.map.addAnnotation(self.newPin)
